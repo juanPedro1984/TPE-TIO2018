@@ -13,14 +13,17 @@ texto), en el orden que aparecen en la secuencia. En cada iteración, el element
     lista = ["a", "b", "c"]
     for i in lista: # Iteramos sobre una lista, que es iterable
     	print i
-    
-    a
-    b
-    c
-    
+
+*a*
+
+*b*
+
+*c*
+
 	cadena = "abcdef"
-    for i in cadena:  Iteramos sobre una cadena, que también es iterable
+
+	for i in cadena:  Iteramos sobre una cadena, que también es iterable
 		print i,   //añadiendo una coma al final hacemos que no introduzca un salto de línea, sino un espacio
     
-    a b c d e f
+*a b c d e f*
 
