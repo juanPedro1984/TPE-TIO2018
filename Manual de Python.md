@@ -27,3 +27,10 @@ texto), en el orden que aparecen en la secuencia. En cada iteración, el element
     
 *a b c d e f*
 
+
+## *Variables* ##
+
+Las variables se definen de forma dinámica, lo que significa que no se tiene que especificar cuál es su tipo de antemano y puede tomar distintos valores en otro momento, incluso de un tipo diferente al que tenía previamente. Se usa el símbolo = para asignar valores.
+
+    x = 1
+    x = "texto" # Esto es posible porque los tipos son asignados dinámicamente
