@@ -34,3 +34,66 @@ Las variables se definen de forma dinámica, lo que significa que no se tiene qu
 
     x = 1
     x = "texto" # Esto es posible porque los tipos son asignados dinámicamente
+
+## *Tipos de datos* ##
+						      
+**str**
+-
+	- Cadena
+	- Inmutable	                                                   'Cadena'
+
+**unicode**
+-
+	- Cadena
+	- Versión Unicode de str	                                    u'Cadena'
+
+**list**
+-
+	- Secuencia
+	- Mutable, puede contener objetos de diversos tipos	            [4.0, 'Cadena', True]
+
+**tuple**
+-
+	- Secuencia
+	- Inmutable, puede contener objetos de diversos tipos	        (4.0, 'Cadena', True)
+
+**set**
+-
+	- Conjunt
+	- Mutable, sin orden, no contiene duplicados	                 set([4.0, 'Cadena', True])
+
+**frozenset**
+-
+	- Conjunto
+	- Inmutable, sin orden, no contiene duplicados	                 frozenset([4.0, 'Cadena', True])
+
+**dict**
+-
+	- Mapping
+	- Grupo de pares clave:valor	                                 {'key1': 1.0, 'key2': False}
+
+**int**
+-
+	- Número entero
+	- Precisión fija, convertido en long en caso de overflow.	     42
+
+**long**
+-
+	- Número entero
+	- Precisión arbitraria	                                         42L ó 456966786151987643L
+
+**float**
+-
+	- Número decimal
+	- Coma flotante de doble precisión	                             3.1415927
+	
+**complex**
+-
+	- Número complejo
+	- Parte real y parte imaginaria j.	                             (4.5 + 3j)
+
+**bool**
+-
+	- Booleano
+	- Valor booleano verdadero o falso                               True o False
+
