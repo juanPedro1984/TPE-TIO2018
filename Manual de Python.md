@@ -106,4 +106,25 @@ Las variables se definen de forma dinámica, lo que significa que no se tiene qu
 	- Booleano
 	- Valor booleano verdadero o falso                               True o False
 
+##*Definicion de funciones* ##
 
+Las funciones se definen con la palabra clave def, seguida del nombre de la función y sus parámetros. Otra forma de escribir funciones, aunque menos utilizada, es con la palabra clave lambda (que aparece en lenguajes funcionales como Lisp).
+El valor devuelto en las funciones con def será el dado con la instrucción return.
+
+def:
+
+    >>> def suma(x, y = 2):
+    ...     return x + y # Retornar la suma del valor de la variable "x" y el valor de "y"
+    ...
+    >>> suma(4) # La variable "y" no se modifica, siendo su valor: 2
+    6
+    >>> suma(4, 10) # La variable "y" sí se modifica, siendo su nuevo valor: 10
+    14
+
+lambda:
+
+    >>> suma = lambda x, y = 2: x + y
+    >>> suma(4) # La variable "y" no se modifica, siendo su valor: 2
+    6
+    >>> suma(4, 10) # La variable "y" sí se modifica, siendo su nuevo valor: 10
+    14
