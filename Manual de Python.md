@@ -106,6 +106,4 @@ Las variables se definen de forma dinámica, lo que significa que no se tiene qu
 	- Booleano
 	- Valor booleano verdadero o falso                               True o False
 
-=======
 
->>>>>>> juan_pedro
